@@ -54,20 +54,12 @@ cd loan-approval-predictor
 ### 2. Set up environment
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 source venv/bin/activate        # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### 3. Add your data
-
-Place your CSVs in the `Dataset/` folder:
-```
-Dataset/train_data.csv
-Dataset/test_data.csv
-```
-
-### 4. Run the notebook
+### 3. Run the notebook
 
 ```bash
 jupyter notebook notebooks/loan_approval_predictor.ipynb
